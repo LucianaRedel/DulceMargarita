@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Fleur+De+Leah&family=Monsieur+La+Doulaise&family=Parisienne&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+.menu {
+  display: flex; }
+
+.inicio {
+  display: flex;
+  justify-content: space-evenly; }
+
+.dropdown {
+  padding: 30px; }
+
+.logo {
+  height: 100px; }
+
+ul {
+  list-style-type: none; }
+
+.footerflex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.card {
+  margin: 2rem; }
+
+.imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.card:hover {
+  transform: scale(1.4); }
+
+.container {
+  width: 90vh;
+  height: 90vh; }
+
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "boxHeader  boxHeader  boxHeader" "boxContent boxContent boxContent" "boxContent boxContent boxContent" "boxFooter  boxFooter  boxFooter"; }
+
+.boxContent {
+  grid-area: boxContent; }
+
+.boxHeader {
+  grid-area: boxHeader; }
+
+.boxFooter {
+  grid-area: boxFooter; }
+
+.contenido {
+  padding: 3rem;
+  display: grid;
+  justify-items: center; }
+  .contenido p {
+    display: grid;
+    justify-items: center; }
+
+.titulo {
+  font-family: 'Ballet', cursive;
+  font-weight: bold;
+  font-size: 50px; }

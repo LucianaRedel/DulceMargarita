@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import './estilos';
+@import './_header';
+@import './_footer';
+@import './ocasiones';
+
+
+.container{
+    width: 90vh;
+    height: 90vh;
+}
+
+
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "boxHeader  boxHeader  boxHeader"
+    "boxContent boxContent boxContent"
+    "boxContent boxContent boxContent"
+    "boxFooter  boxFooter  boxFooter";
+  }
+
+  .boxContent {
+    grid-area: boxContent;
+  }
+  
+  .boxHeader {
+    grid-area: boxHeader;
+  }
+  
+  .boxFooter {
+    grid-area: boxFooter;
+  }
+
+  .contenido{
+      padding: 3rem;
+      display: grid;
+      justify-items: center;
+      p {
+          display: grid;
+          justify-items: center;
+      }
+     
+  }
+
+  .titulo{
+      font-family: 'Ballet', cursive;
+      font-weight: bold;
+      font-size: 50px;
+  }
+
+ 
+
+

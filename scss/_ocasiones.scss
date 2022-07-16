@@ -1,0 +1,14 @@
+.card{
+    margin: 2rem;
+}
+
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.card:hover{
+    transform: scale(1.4);
+}
