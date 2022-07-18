@@ -6,14 +6,15 @@
 @import './estilos';
 @import './_header';
 @import './_footer';
-@import './ocasiones';
+@import './_ocasiones';
+@import './_contacto';
 
 
 .container{
     width: 90vh;
     height: 90vh;
-}
 
+}
 
 
 .wrapper {
@@ -46,15 +47,45 @@
       p {
           display: grid;
           justify-items: center;
+          padding: 1rem;
+          font-family: 'Sacramento', cursive;
+          font-size: xx-large;
       }
      
+  }
+
+  h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
   }
 
   .titulo{
       font-family: 'Ballet', cursive;
       font-weight: bold;
       font-size: 50px;
+      color: #ddbea9;
+      
   }
+
+
+  .btn{
+    background-color: #ffe8d6;;
+    color: black;
+  }
+
+  h4{
+    font-family: 'Sacramento', cursive;
+    font-size: xx-large;
+  }
+
+  h5{
+    font-family: 'Sacramento', cursive;
+    font-size: x-large;
+  }
+
+
+
+
 
  
 
