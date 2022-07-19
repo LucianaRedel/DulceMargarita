@@ -217,6 +217,76 @@ else{
 
 //
 
+console.log('hello world')
+// ? ¿Qué tenemos? 
+// * ASIGNACION DE VARIABLES
+// * CONDICIONALES - !operadores
+// * INPUT DE USUARIO (PROMPT)
+// * CONSOLA
+
+// TODO: Pedir al usuario el nombre y la edad
+let userName = prompt('Digame su nombre')
+let age = Number(prompt('Dicte su edad'))
+// TODO: informar si es mayor de edad mayor a 17 años ,
+if( age > 17) {
+    alert('El usuario es mayor de edad.')
+}
+else if( age < 17 && age > 13){
+    alert('El usuario es adolescente')
+}else if ( age < 13 ){
+    alert('El usuario es un niño')
+}
+
+console.log('El nombre del usuario es ', userName)
+
+console.log('hello world')
+// ? ¿Qué tenemos? 
+// * ASIGNACION DE VARIABLES
+// * CONDICIONALES - !operadores
+// * INPUT DE USUARIO (PROMPT)
+// * CONSOLA
+
+// TODO: Pedir al usuario el nombre y la edad
+const userName = prompt('Digame su nombre')
+let age = Number(prompt('Dicte su edad'))
+let message = 'El usuario no insertó edad.'
+// TODO: informar si es mayor de edad mayor a 17 años ,
+if( age > 17) {
+    message='El usuario es mayor de edad.'
+}
+else if( age < 17 && age > 13){
+    message='El usuario es adolescente'
+}else if ( age < 13 ){
+    message='El usuario es un niño'
+}
+alert(message)
+
+console.log('El nombre del usuario es ', userName)
+
+console.log('hello world')
+// ? ¿Qué tenemos? 
+// * ASIGNACION DE VARIABLES
+// * CONDICIONALES - !operadores
+// * INPUT DE USUARIO (PROMPT)
+// * CONSOLA
+
+// TODO: Pedir al usuario el nombre y la edad
+const userName = prompt('Digame su nombre')
+let age = Number(prompt('Dicte su edad'))
+let ageGroup = 'niño/a'
+// TODO: informar si es mayor de edad mayor a 17 años ,
+if( age > 17) {
+    ageGroup='adulto'
+}
+else if( age < 17 && age > 13){
+    ageGroup='adolescente'
+}else if ( age < 13 ){
+    ageGroup='niño'
+}
+// console.log("Hola "+userName," tu eres"+ageGroup+" y tienes "+age+" años de edad.")
+console.log(`Hola ${userName} tu eres ${ageGroup} y tienes ${age} años de edad`)
+// console.log('El nombre del usuario es ', userName)
+
 */
 
 

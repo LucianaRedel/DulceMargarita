@@ -1,5 +1,26 @@
 
 .formulario{
-    padding: 10rem;
+    padding: 5rem;
+    padding-bottom: 0%;
     border: 2rem;
 }
+
+.mb-3{
+    font-family: 'Sacramento', cursive;
+    font-size: larger;
+    
+}
+
+.imagenLogo{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.mb-3 [type=submit]:hover {
+    transform: scale(1.3);
+
+}
+
+
+
