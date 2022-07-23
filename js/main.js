@@ -382,9 +382,9 @@ else {
     alert('No one available for this election');
 }
 
-*/
 
-/*
+
+
 
 // Otra prueba para la seleccion 
 
@@ -438,31 +438,99 @@ let selection1Region = prompt('Select a region')
 let selection2Destination = prompt('Select a destination')
 let selection3Month = prompt('Select a month')
 
+
+switch (selection1Region) 
+{
+    case (region1):
+        switch (selection2Destination) 
+        {
+            case (region1Destination1):
+                switch (selection3Month) 
+                {
+                    case (month1):
+                        alert('Carlos, Salta & Jujuy, Tour to Calafate')                       
+                }                 
+        }
+        break;
+    case (region2):
+        switch (selection2Destination)
+        {
+            case (region2Destination1):
+                switch (selection3Month)
+                {
+                    case (month1):
+                        alert('Karine, Rio de Janeiro & Sao Paulo, Tour around the city')
+                        
+                }
+        }
+        break;
+    case (region3):
+        switch (selection2Destination)
+        {
+            case (region3Destination1):
+                switch (selection3Month)
+                {
+                    case (month1):
+                        alert('Patrick, New York, Museums tour')
+                }
+        }
+        break;
+    case (region4):
+        switch (selection2Destination)
+        {
+            case (region4Destination1):
+                switch (selection3Month)
+                {
+                    case (month1):
+                        alert('Adam, England, London city tour')
+                }
+        }
+        break;
+    default:
+        alert('no one available, please try another selection');
+}
+
+
+/*
+// funciona la seleccion, ok!! 
+
 switch (selection1Region)
 {
     case (region1):
         if(( selection2Destination === region1Destination1 ) && (selection3Month === month1)) {
             alert('Carlos, Salta & Jujuy, Tour to Calafate')
-        }
-        else{
-            alert('no one available, please try another selection');
-        }
+            break;
+        } 
     case (region2):
         if ((selection2Destination === region2Destination1) && (selection3Month === month2)){
             alert('Karine, Rio de Janeiro & Sao Paulo, Tour around the city')
+            break;
         }
-        else{
-            alert('no one available, please try another selection');
+    case (region3):
+        if ((selection2Destination === region3Destination1) && (selection3Month === month3)){
+            alert('Patrick, New York, Museums tour')
+            break;
         }
+    case (region4):
+        if ((selection2Destination === region4Destination1) && (selection3Month === month3)){
+            alert('Adam, England, London city tour');
+            break;
+        }
+    default:
+        alert('no one available, please try another selection');
 
 }
 
 */
 
 
+
+
+
+
 /*
 
-// Para log in en la pagina * fundiona!!
+// Para log in en la pagina, ok fundiona!!
 
 let userId;
 let userName;

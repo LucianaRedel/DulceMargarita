@@ -108,6 +108,9 @@ h5 {
   font-family: 'Sacramento', cursive;
   font-size: x-large; }
 
+img {
+  border-radius: 5%; }
+
 @media only screen and (min-width: 360px) and (max-width: 1100px) {
   .contenido {
     padding: 0%; }
