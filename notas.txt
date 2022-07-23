@@ -13,3 +13,35 @@ Mayor o igual que (>=) Devuelve true si el operando izquierdo es mayor o igual q
 Menor que (<) Devuelve true si el operando izquierdo es menor que el operando derecho.
 
 Menor o igual (<=) Devuelve true si el operando izquierdo es menor o igual que el operando derecho
+
+Asignación x = y x = y
+
+Asignación de adición x += y x = x + y
+
+Asignación de resta x -= y x = x - y
+
+Asignación de multiplicación x *= y x = x * y
+
+Asignación de división x /= y x = x / y
+
+Asignación de residuo x %= y x = x % y
+
+Asignación de exponenciación x **= y x = x ** y
+
+Asignación de desplazamiento a la izquierda x <<= y x = x << y
+
+Asignación de desplazamiento a la derecha x >>= y x = x >> y
+
+Asignación de desplazamiento a la derecha sin signo x >>>= y x = x >>> y
+
+Asignación AND bit a bit x &= y x = x & y
+
+Asignación XOR bit a bit x ^= y x = x ^ y
+
+Asignación OR bit a bit x |= y x = x | y
+
+Asignación AND lógico x &&= y x && (x = y)
+
+Asignación OR lógico x ||= y x || (x = y)
+
+Asignación de anulación lógica x ??= y x ?? (x = y)

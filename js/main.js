@@ -1,5 +1,3 @@
-
-
 /*
 Tipos de datos
 
@@ -217,6 +215,17 @@ else{
 
 //
 
+let name4 = 'Bart';
+let surname4 = 'Simpson';
+let address4 = '742 Evergreen';
+const plateNumber = 'B47U89RE243';
+
+let carnet = name4 + '' + surname4 + '' + address4 + '' + plateNumber
+
+console.log(carnet);
+
+//
+
 console.log('hello world')
 // ? ¿Qué tenemos? 
 // * ASIGNACION DE VARIABLES
@@ -287,13 +296,108 @@ else if( age < 17 && age > 13){
 console.log(`Hola ${userName} tu eres ${ageGroup} y tienes ${age} años de edad`)
 // console.log('El nombre del usuario es ', userName)
 
+// Clase ciclos, ejercicio 1
+
+let cantidad = prompt('INGRESAR CANTIDAD DE REPETICIONES'); 
+let texto = prompt('INGRESAR TEXTO A REPETIR');
+
+for (let index = 0; index < cantidad; index++) 
+{
+alert(texto); 
+}
+
 */
 
+// Para seleccion de destino mes y ciudad, retorna persona disponible y actividad
+
+let region1 = 'Argentina'
+
+let region2 = 'Brazil'
+
+let region1Destination1 = 'Salta & Jujuy'
+let region1Destination2 = 'Iguazu'
+let region1Destination3 = 'San Martin de los Andes & Villa La Angostura'
+let region1Destination4 = 'Bariloche'
+let region1Destination5 = 'Usuhaia'
+let region1Destination6 = 'Calafate'
+let region1Destination7 = 'Buenos Aires'
+
+let region2Destination1 = 'Rio de Janeiro & Sao Paulo'
+let region2Destination2 = 'North beaches'
+let region2Destination3 = 'South beaches'
+
+let month8 = 'August'
+let month9 = 'September'
+let month10 = 'October'
+let month11 = 'November'
+
+let selection1Region1 = prompt('Select a region')
+let selection2Region1 = prompt('Select a destination')
+let selection3Region1 = prompt('Select a month')
+
+if ((selection1Region1 === region1) && (selection2Region1 === region1Destination1) && (selection3Region1 === month8)) {
+    alert('Carlos, Salta & Jujuy, Tour to Calafate')
+} else if ((selection1Region1 === region1) && (selection2Region1 === region1Destination2) && (selection3Region1 === month8)) {
+    alert('Laura, Iguazu, City Tour')
+} else if ((selection1Region1 === region1) && (selection2Region1 == region1Destination3) && (selection3Region1 === month8)) {
+    alert('Luciana, San Martin de los Andes, Hikink and tea house brunch')
+} else if ((selection1Region1 === region1) && (selection2Region1 == region1Destination4) && (selection3Region1 === month10)) {
+    alert('Eduardo, Bariloche, Tour around 7 Lakes')
+} else if ((selection1Region1 === region1) && (selection2Region1 == region1Destination4) && (selection3Region1 === month11)) {
+    alert('Eduardo, Bariloche, Tour around 7 Lakes');
+} else if ((selection1Region1 === region1) && (selection2Region1 == region1Destination5) && (selection3Region1 === month8)) {
+    alert('Ezequiel, Usuhaia, Lake trip');
+} else if ((selection1Region1 === region1) && (selection2Region1 == region1Destination5) && (selection3Region1 === month9)) {
+    alert('Ezequiel, Usuhaia, Lake trip');
+} else if ((selection1Region1 === region1) && (selection2Region1 == region1Destination6) && (selection3Region1 === month8)) {
+    alert('Patricia, Calafate, Glacier tour');
+} else if ((selection1Region1 === region1) && (selection2Region1 == region1Destination6) && (selection3Region1 === month9)) {
+    alert('Patricia, Calafate, Glacier tour');
+} else if ((selection1Region1 === region1) && (selection2Region1 == region1Destination6) && (selection3Region1 === month10)) {
+    alert('Patricia, Calafate, Glacier tour');
+} else if ((selection1Region1 === region1) && (selection2Region1 == region1Destination6) && (selection3Region1 === month11)) {
+    alert('Patricia, Calafate, Glacier tour');
+} else if ((selection1Region1 === region1) && (selection2Region1 == region1Destination7) && (selection3Region1 === month9)) {
+    alert('Susana, Buenos Aires, Tour around the city');
+} else if ((selection1Region1 === region1) && (selection2Region1 == region1Destination7) && (selection3Region1 === month10)) {
+    alert('Susana, Buenos Aires, Tour around the city');
+} else if ((selection1Region1 === region2) && (selection2Region1 == region2Destination1) && (selection3Region1 === month10)) {
+    alert('Karine, Rio de Janeiro & Sao Paulo, Tour around the city');
+} else if ((selection1Region1 === region2) && (selection2Region1 == region2Destination1) && (selection3Region1 === month11)) {
+    alert('Karine, Rio de Janeiro & Sao Paulo, Tour around the city');
+} else if ((selection1Region1 === region2) && (selection2Region1 == region2Destination2) && (selection3Region1 === month8)) {
+    alert('Alexandre, North Beaches, Porto de Galinhas tour');
+} else if ((selection1Region1 === region2) && (selection2Region1 == region2Destination2) && (selection3Region1 === month9)) {
+    alert('Alexandre, North Beaches, Porto de Galinhas tour');
+} else if ((selection1Region1 === region2) && (selection2Region1 == region2Destination2) && (selection3Region1 === month10)) {
+    alert('Alexandre, North Beaches, Porto de Galinhas tour');
+} else if ((selection1Region1 === region2) && (selection2Region1 == region2Destination2) && (selection3Region1 === month11)) {
+    alert('Alexandre, North Beaches, Porto de Galinhas tour');
+}
+
+
+else {
+    alert('No one available for this election');
+}
 
 
 
 
+/*
 
+// Para log in en la pagina * fundiona!!
 
+let userId;
+let userName;
+userId = prompt('enter user ID')
+userName = prompt('enter user name');
 
+while ((userId != 'Administrator') && (userName != 'Main')) {
 
+    userId = prompt('Error, re type correct user ID')
+    userName = prompt('Error, re type correct user name');
+}
+
+alert('correct user and ID entered');
+
+*/

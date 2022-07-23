@@ -114,4 +114,6 @@ h5 {
   .titulo {
     font-size: 4vh; }
   .container {
-    width: fit-content; } }
+    width: fit-content; }
+  .dropdown {
+    padding: 1%; } }
