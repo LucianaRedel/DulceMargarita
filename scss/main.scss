@@ -85,11 +85,18 @@
 
   h5{
     font-family: 'Sacramento', cursive;
-    font-size: x-large;
+    font-size: xx-large;
+    font-weight: bold;
   }
 
   img{
     border-radius: 5%;
+  }
+
+  .contactoIndex{
+    display: grid;
+    padding: 1rem;
+    justify-items: center;
   }
 
   @media only screen and (min-width: 360px) and (max-width: 1100px){ 

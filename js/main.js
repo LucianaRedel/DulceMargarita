@@ -306,6 +306,55 @@ for (let index = 0; index < cantidad; index++)
 alert(texto); 
 }
 
+// Actividad 1 Yo no fui 
+
+let usuario1 = 'Bart'
+
+let ingresado = prompt('ingrese su usuario')
+
+if(usuario1 === ingresado){
+    alert('Fui yo');
+}
+else{
+    alert('Yo no fui');
+}
+
+// Actividad 2 presionar y
+
+let tecla = 'y'
+
+let ingresado1 = prompt('ingrese una tecla')
+
+if((ingresado1 === 'y')  || (ingresado1 === 'Y')){
+    alert('Correcto');
+}
+else{
+    alert('Error')
+}
+
+// Actividad 3 escoger personaje
+// Atencion con == para los numeros, no funciona con === 
+
+let numero1 = 1
+let numero2 = 2
+let numero3 = 3
+let numero4 = 4
+
+let ingresado2 = prompt('ingrese un numero')
+
+if (ingresado2 == numero1){
+    alert('Es Homero');   
+} else if (ingresado2 == numero2){
+    alert('Es Marge');
+} else if (ingresado2 == numero3){
+    alert('Es Bart');
+} else if (ingresado2 == numero4){
+    alert('Es Lisa');
+}
+else {
+    alert('Error')
+}
+
 */
 
 /*
@@ -439,6 +488,7 @@ let selection2Destination = prompt('Select a destination')
 let selection3Month = prompt('Select a month')
 
 
+
 switch (selection1Region) 
 {
     case (region1):
@@ -448,8 +498,32 @@ switch (selection1Region)
                 switch (selection3Month) 
                 {
                     case (month1):
-                        alert('Carlos, Salta & Jujuy, Tour to Calafate')                       
-                }                 
+                        alert('Carlos, Salta & Jujuy, Tour to Calafate');                       
+                
+                    case (month2):
+                        alert('Carlos, Salta, City Tour');
+                    
+                    case (month3):
+                        alert('Ana Maria, Jujuy, Day tour to Cachi');
+                
+                    break;
+                    default:
+                        alert('no one available, please try another selection');
+                }
+            case (region1Destination2):
+                switch (selection3Month)
+                {
+                    case (month1):
+                        alert('Laura, Iguazu, City tour')
+                }
+                break;
+            case (region1Destination3):
+                switch (selection3Month)
+                {
+                    case (month1):
+                        alert('Luciana, San Martin de los Andes & Villa La Angostura, Hiking and tea house brunch')
+                }
+                break;                 
         }
         break;
     case (region2):
@@ -459,9 +533,9 @@ switch (selection1Region)
                 switch (selection3Month)
                 {
                     case (month1):
-                        alert('Karine, Rio de Janeiro & Sao Paulo, Tour around the city')
-                        
+                        alert('Karine, Rio de Janeiro & Sao Paulo, Tour around the city')       
                 }
+                break;    
         }
         break;
     case (region3):
@@ -473,6 +547,7 @@ switch (selection1Region)
                     case (month1):
                         alert('Patrick, New York, Museums tour')
                 }
+                break;
         }
         break;
     case (region4):
@@ -484,11 +559,16 @@ switch (selection1Region)
                     case (month1):
                         alert('Adam, England, London city tour')
                 }
+                break;
         }
         break;
     default:
         alert('no one available, please try another selection');
 }
+
+
+
+
 
 
 /*
@@ -544,5 +624,26 @@ while ((userId != 'Administrator') && (userName != 'Main')) {
 }
 
 alert('correct user and ID entered');
+
+
+
+// Prueba de simulador interactivo 
+
+//Calcular el costo de envio, como 20% sobre el costo del producto
+
+
+let producto1 = 'Tarta manzana'
+let precio1 = 100
+let costo1 = 1.20
+
+function calcularCosto (precio1, costo1){
+   return precio1 * costo1;
+}
+
+let seleccion = prompt ('ingrese producto')
+
+if (seleccion === producto1){
+    console.log ( producto1 + ' ' + 'el precios es' + ' ' +  calcularCosto()  );
+}
 
 */

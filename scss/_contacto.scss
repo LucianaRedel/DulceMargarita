@@ -7,7 +7,7 @@
 
 .mb-3{
     font-family: 'Sacramento', cursive;
-    font-size: larger;
+    font-size: xx-large;
     
 }
 
@@ -20,6 +20,20 @@
 .mb-3 [type=submit]:hover {
     transform: scale(1.3);
 
+}
+
+.contenidoContacto{
+    padding: 3rem;
+    display: grid;
+    justify-items: center;
+    p {
+        display: grid;
+        justify-items: center;
+        padding: 1rem;
+        font-family: 'Sacramento', cursive;
+        font-size: xx-large;
+    }
+   
 }
 
 
