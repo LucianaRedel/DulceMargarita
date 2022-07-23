@@ -308,6 +308,8 @@ alert(texto);
 
 */
 
+/*
+
 // Para seleccion de destino mes y ciudad, retorna persona disponible y actividad
 
 let region1 = 'Argentina'
@@ -380,7 +382,82 @@ else {
     alert('No one available for this election');
 }
 
+*/
 
+/*
+
+// Otra prueba para la seleccion 
+
+let region1 = 'Argentina'
+
+let region2 = 'Brazil'
+
+let region3 = 'North America'
+
+let region4 = 'Europe'
+
+let region1Destination1 = 'Salta & Jujuy'
+let region1Destination2 = 'Iguazu'
+let region1Destination3 = 'San Martin de los Andes & Villa La Angostura'
+let region1Destination4 = 'Bariloche'
+let region1Destination5 = 'Usuhaia'
+let region1Destination6 = 'Calafate'
+let region1Destination7 = 'Buenos Aires'
+
+let region2Destination1 = 'Rio de Janeiro & Sao Paulo'
+let region2Destination2 = 'North beaches'
+let region2Destination3 = 'South beaches'
+
+let region3Destination1 = 'New York'
+let region3Destination2 = 'Chicago & Boston'
+let region3Destination3 = 'San Francisco & Los Angeles'
+let region3Destination4 = 'Miami'
+let region3Destination5 = 'Washington'
+
+let region4Destination1 = 'England'
+let region4Destination2 = 'italy'
+let region4Destination3 = 'France'
+let region4Destination4 = 'Spain & Portugal'
+let region4Destination5 = 'The Netherlands & Belgium'
+let region4Destination6 = 'Germany, Austria & Czech Republic'
+
+let month1 = 'January'
+let month2 = 'February'
+let month3 = 'March'
+let month4 = 'April'
+let month5 = 'May'
+let month6 = 'June'
+let month7 = 'July'
+let month8 = 'August'
+let month9 = 'September'
+let month10 = 'October'
+let month11 = 'November'
+let month12 = 'December'
+
+let selection1Region = prompt('Select a region')
+let selection2Destination = prompt('Select a destination')
+let selection3Month = prompt('Select a month')
+
+switch (selection1Region)
+{
+    case (region1):
+        if(( selection2Destination === region1Destination1 ) && (selection3Month === month1)) {
+            alert('Carlos, Salta & Jujuy, Tour to Calafate')
+        }
+        else{
+            alert('no one available, please try another selection');
+        }
+    case (region2):
+        if ((selection2Destination === region2Destination1) && (selection3Month === month2)){
+            alert('Karine, Rio de Janeiro & Sao Paulo, Tour around the city')
+        }
+        else{
+            alert('no one available, please try another selection');
+        }
+
+}
+
+*/
 
 
 /*
