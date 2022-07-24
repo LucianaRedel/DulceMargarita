@@ -686,37 +686,67 @@ else{
     alert('No existe el producto');
 }
 
-// Tercer intento funcion generica
+
+// Tercer intento funcion generica, funciona! 
+
+//Consultar el precio del producto, incluyendo el envio
 
 let producto1 = 'Tarta manzana'
 let producto2 = 'Tarta ricota'
+let producto3 = 'Tarta frutillas'
+let producto4 = 'Pasta frola'
 
 let precio1 = 100
 let precio2 = 120
+let precio3 = 150
+let precio4 = 130
 
 let costoEnvio = 1.20
 
-function calcularCosto1 (){
+function calcularCosto ()
+{
+    if(seleccion === producto1)
+    {    
     return parseInt (precio1 * costoEnvio); 
+    } else if (seleccion === producto2){
+          return parseInt (precio2 * costoEnvio)
+      }
+      else if (seleccion === producto3){
+          return parseInt (precio3 * costoEnvio)
+      }
+      else if (seleccion === producto4){
+          return parseInt (precio4 * costoEnvio)
+      }
 }
 
-function calcularCosto2 (){
-    return parseInt (precio2 * costoEnvio );
-}
 
 
 let seleccion = prompt('Ingrese producto')
 
-if (seleccion === producto1){
-    alert ( producto1 + ' ' + 'el precio total con el envio es' + ' ' +  calcularCosto1()  );
 
+
+if (seleccion === producto1){
+    alert ( producto1 + ' ' + 'el precio total con el envio es' + ' ' +  calcularCosto()  );
 } else if (seleccion === producto2){
-    alert ( producto2 + ' ' + 'el precio total con el envio es' + ' ' +  calcularCosto2()  );
+    alert ( producto2 + ' ' + 'el precio total con el envio es' + ' ' +  calcularCosto()  );
+} else if (seleccion === producto3){
+    alert ( producto3 + ' ' + 'el precio total con el envio es' + ' ' + calcularCosto() );
+} else if (seleccion === producto4){
+    alert ( producto4 + ' ' + 'el precios total con el envio es' + ' ' + calcularCosto() );
 }
 else{
     alert('No existe el producto');
 }
 
 */
+
+
+
+
+
+
+
+
+
 
 
