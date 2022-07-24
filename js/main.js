@@ -625,25 +625,98 @@ while ((userId != 'Administrator') && (userName != 'Main')) {
 
 alert('correct user and ID entered');
 
+*/
 
-
+/*
 // Prueba de simulador interactivo 
 
 //Calcular el costo de envio, como 20% sobre el costo del producto
+//Funcion basica que funciona, pero es solo un producto
 
 
 let producto1 = 'Tarta manzana'
-let precio1 = 100
-let costo1 = 1.20
 
-function calcularCosto (precio1, costo1){
-   return precio1 * costo1;
+let precio1 = 100
+
+let costo = 1.20
+
+function calcularCosto (){
+   return parseInt(precio1 * costo);
 }
 
 let seleccion = prompt ('ingrese producto')
 
 if (seleccion === producto1){
-    console.log ( producto1 + ' ' + 'el precios es' + ' ' +  calcularCosto()  );
+    alert ( producto1 + ' ' + 'el precio total con el envio es' + ' ' +  calcularCosto()  );
+}
+else{
+    alert ('No existe el producto');
+}
+
+
+
+// Segundo intento generico para la funcion
+
+let producto1 = 'Tarta manzana'
+let producto2 = 'Tarta ricota'
+
+let precio1 = 100
+let precio2 = 120
+
+let costoEnvio = 1.20
+
+function calcularCosto1 (){
+    return parseInt (precio1 * costoEnvio); 
+}
+
+function calcularCosto2 (){
+    return parseInt (precio2 * costoEnvio );
+}
+
+
+let seleccion = prompt('Ingrese producto')
+
+if (seleccion === producto1){
+    alert ( producto1 + ' ' + 'el precio total con el envio es' + ' ' +  calcularCosto1()  );
+
+} else if (seleccion === producto2){
+    alert ( producto2 + ' ' + 'el precio total con el envio es' + ' ' +  calcularCosto2()  );
+}
+else{
+    alert('No existe el producto');
+}
+
+// Tercer intento funcion generica
+
+let producto1 = 'Tarta manzana'
+let producto2 = 'Tarta ricota'
+
+let precio1 = 100
+let precio2 = 120
+
+let costoEnvio = 1.20
+
+function calcularCosto1 (){
+    return parseInt (precio1 * costoEnvio); 
+}
+
+function calcularCosto2 (){
+    return parseInt (precio2 * costoEnvio );
+}
+
+
+let seleccion = prompt('Ingrese producto')
+
+if (seleccion === producto1){
+    alert ( producto1 + ' ' + 'el precio total con el envio es' + ' ' +  calcularCosto1()  );
+
+} else if (seleccion === producto2){
+    alert ( producto2 + ' ' + 'el precio total con el envio es' + ' ' +  calcularCosto2()  );
+}
+else{
+    alert('No existe el producto');
 }
 
 */
+
+
