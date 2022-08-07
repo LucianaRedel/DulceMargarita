@@ -139,7 +139,8 @@ img {
   .titulo {
     font-size: 4vh; }
   .container {
-    width: fit-content; }
+    width: fit-content;
+    height: fit-content; }
   .dropdown {
     padding: 1%; }
   .contenidoContacto {
