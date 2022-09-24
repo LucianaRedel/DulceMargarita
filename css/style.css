@@ -69,6 +69,10 @@ ul {
   width: 90vh;
   height: 90vh; }
 
+.mb-3 {
+  display: grid;
+  place-items: center; }
+
 .wrapper {
   display: grid;
   grid-gap: 10px;

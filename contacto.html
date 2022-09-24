@@ -126,25 +126,27 @@
       </section>
 
       <section class="formulario">
-        <form action="direcciondelarchivo" method="post" enctype="text/plain">
+        <form action="https://formsubmit.co/e006d6c675b3feaf85896eef1cf7dbfc" method="POST" enctype="text/plain">
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Tu dirección de email</e-mail></label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <input type="email" name="email" class="form-control" id="emailMensaje" placeholder="name@example.com">
         </div>
 
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Tu nombre </label>
-          <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+          <input type="name" name="name" class="form-control" id="nombreMensaje" placeholder="Nombre">
         </div>
 
         <div class="mb-3">
           <label for="exampleFormControlTextarea1" class="form-label">Tu mensaje</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <textarea class="form-control" name="mensaje" id="mensaje" rows="3"></textarea>
         </div>
+        <input type="hidden" name="_next" value="https://lucianaredel.github.io/DulceMargarita/contacto.html">
 
         <div class="mb-3">
-          <input type="submit" value="Enviar">
+          <button type="submit" class="btn btn-primary" id="mensajeEnviado">Enviar</button>
         </div>
+        <input type="hidden" name="_captcha" value="false">
       </form>
       </section>
 
@@ -188,6 +190,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
   </script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="./js/main.js"> </script>
 </body>
 
 </html>
